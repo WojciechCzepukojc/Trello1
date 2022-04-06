@@ -23,25 +23,15 @@ public class Main {
         //sprawdzenie czy działa
         System.out.println(bear1.imie + bear1.wiek + "oraz " + bear4.imie);
 
-        Osoba osoba1 = new Osoba();
-        osoba1.imie = "Marian";
-        osoba1.nazwisko = "Kowalski";
+        Osoba osoba1 = new Osoba("Marian", "Kowalski");
 
-        Osoba osoba2 = new Osoba();
-        osoba2.imie = "Adrian";
-        osoba2.nazwisko = "Roztocki";
+        Osoba osoba2 = new Osoba("Adrian", "Roztocki");
 
-        Osoba osoba3 = new Osoba();
-        osoba3.imie = "Hugo";
-        osoba3.nazwisko = "Kołątaj";
+        Osoba osoba3 = new Osoba("Hugo", "Kołątaj" );
 
-        Osoba osoba4 = new Osoba();
-        osoba4.imie = "Alicja";
-        osoba4.nazwisko = "Wkrainieczarów";
+        Osoba osoba4 = new Osoba("Alicja", "Wkrainieczarów" );
 
-        Osoba osoba5 = new Osoba();
-        osoba5.imie = "Dagmara";
-        osoba5.nazwisko = "Drakula";
+        Osoba osoba5 = new Osoba("Dagmara", "Drakula" );
         //test
         System.out.println( osoba3.imie + osoba3.nazwisko + " i " + osoba5.imie + osoba5.nazwisko);
 
